@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 
-
+¹¹Áö
 int main(void) {
 
 
-	clock_t start = clock();
+	clock_t start = clock();//
 	double duration;
 	
 
