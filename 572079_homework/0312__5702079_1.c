@@ -4,6 +4,9 @@
 
 int main(void) {
 
+
+
+
 	int result = 0;//결과값 0으로 잡기
 	int a = 0;
 
@@ -22,8 +25,6 @@ int main(void) {
 	}
 	
 	printf("소수의 합은 %d \n", result);//소수의 합 출력
-	ddfa
-
 
 
 }

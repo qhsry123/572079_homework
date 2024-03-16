@@ -2,7 +2,7 @@
 #include <time.h>
 
 
-int main(void) {
+int main_1(void) {
 
 	double duration;
 	
