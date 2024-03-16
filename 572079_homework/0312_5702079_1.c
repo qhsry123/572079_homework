@@ -22,7 +22,7 @@ int main(void) {
 	}
 	
 	printf("소수의 합은 %d \n", result);//소수의 합 출력
-
+	ddfa
 
 
 
