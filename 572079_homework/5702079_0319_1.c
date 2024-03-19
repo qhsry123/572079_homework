@@ -7,17 +7,13 @@ long factorial_rec(int n) {
 	if (n <= 1) return(1);
 		else return (n * factorial_rec(n - 1));
 
-
 }
 
 long factorial_iter(int n) {
-	int i, result = 1;
+	long i, result = 1;
 	for (i = 1; i <= n; i++)
 		result = result * i;
 		return(result);
-
-	
-
 }
 
 int main(){
