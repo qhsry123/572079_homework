@@ -18,6 +18,8 @@ long power_iter(long double x, int n) {
 	for (i = 0; i < n; i++)
 		result = x * result;
 	return(result);
+
+
 }
 
 int main() {
@@ -29,7 +31,7 @@ int main() {
 
 	clock_t start = clock();
 
-	double result_rec = power_rec(10,10);
+	double result_rec = power_rec(13,21);
 	
 	clock_t stop = clock();
 
@@ -38,7 +40,7 @@ int main() {
 	
 	clock_t start_1 = clock();
 	
-	double result_iter = power_iter(10,10);
+	double result_iter = power_iter(13,21);
 	
 	clock_t stop_1 = clock();
 
