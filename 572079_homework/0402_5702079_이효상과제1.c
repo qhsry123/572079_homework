@@ -67,10 +67,10 @@ void poly_add2(int As, int Ae, int Bs, int Be, int* Csp, int* Cep) {
 	{
 		for (j = Bs; j <= Be; j++)
 		{
-			coefficient = terms[i].coef * terms[j].coef;   //°è¼öÀÇ °ö
-			exponent = terms[i].expon + terms[j].expon;  // Áö¼öÀÇ ÇÕ
-			s = Be + 1;                        // sÀÇ À§Ä¡ ÁöÁ¤
-			attach(coefficient, exponent, s);          //°ö¼ÀÇ× Ã·°¡   
+			coefficient = terms[i].coef * terms[j].coef;   
+			exponent = terms[i].expon + terms[j].expon;
+			s = Be + 1;                       
+			attach(coefficient, exponent, s);         
 		}
 	}
 
